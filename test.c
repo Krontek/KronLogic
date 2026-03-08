@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "kronlogic.h"
+#include <stdio.h>
 
 static int pass_count = 0;
 static int fail_count = 0;
