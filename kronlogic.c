@@ -77,3 +77,15 @@ void F_TRIG_Call(F_TRIG *inst) {
     inst->Q = !inst->CLK && inst->M;
     inst->M = inst->CLK;
 }
+
+/* =========================================================
+ * Bit Shift Functions
+ * ========================================================= */
+
+uint32_t SHL(uint32_t in, uint8_t n) {
+    return in << n;
+}
+
+uint32_t SHR(uint32_t in, uint8_t n) {
+    return in >> n;
+}
